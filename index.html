@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BroTalk</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div id="loader">Installing BroTalk...</div>
+  <div class="login-screen hidden">
+    <h1>Welcome to BroTalk</h1>
+    <p class="note">AI will be added in the next update</p>
+    <input type="text" placeholder="Enter your name" id="username" />
+    <button id="loginBtn">Enter</button>
+  </div>
+  <div class="chat-screen hidden">
+    <div class="chat-header">
+      <h2>BroTalk AI</h2>
+      <button id="backBtn">← Back</button>
+    </div>
+    <div class="chat-box" id="chatBox"></div>
+    <div class="chat-input">
+      <input type="text" id="chatInput" placeholder="Talk to BroTalk..." />
+      <button id="sendBtn">Send</button>
+      <button id="voiceBtn">🎤</button>
+    </div>
+  </div>
+</body>
+</html>
